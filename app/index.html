@@ -1,0 +1,30 @@
+<!doctype html>
+<html ng-app="handlaApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document</title>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/css/main.css" media="screen, projection" rel="stylesheet" type="text/css" />
+</head>
+<body ng-controller="ListCtrl">
+  <!-- <div class="menu-button">M</div> -->
+  <header>
+    <h3 class="heading">Shopping list</h3>
+    <div class="input-wrapper">
+      <form>
+        <input type="text" class="text-input" ng-model="newGroceryItem.text" placeholder="Vad ska du handla?">
+        <button type="submit" ng-click="addGrocery()">+</button>
+      </form>
+    </div>
+  </header>
+  <p>Att handla</p>
+  <ul>
+    <li ng-repeat="item in groceryList" ng-click="removeGrocery(item)">
+      <span class="fa fa-circle-o"></span><p>{{item.text}}</p>
+    </li>
+  </ul>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

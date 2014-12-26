@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Dosis:300,400,600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  font-family: 'pacifico';
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 10px; }
+
+h2 {
+  font-family: 'pacifico';
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 10px; }
+
+h3 {
+  font-family: 'pacifico';
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 10px; }
+
+h4 {
+  font-family: 'pacifico';
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 10px; }
+
+h5 {
+  font-family: 'pacifico';
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 10px; }
+
+h6 {
+  font-family: 'pacifico';
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 10px; }
+
+* {
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out; }
+
+*:focus {
+  outline: 0; }
+
+html, body {
+  font-size: 62.5%;
+  background: #f7f7f7;
+  font-family: 'Open Sans', helvetica, arial;
+  color: #6D787F; }
+
+.block, header .text-input, ul {
+  background: #fff;
+  border: none;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: auto;
+  font-size: 1.8rem;
+  padding: 1rem;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1); }
+
+.menu-button {
+  position: absolute;
+  top: 10px;
+  left: 2.5%;
+  height: 44px;
+  width: 44px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 44px;
+  z-index: 2; }
+
+header {
+  background: #FD6D6F;
+  position: relative;
+  padding: 30px 2.5% 5%; }
+  header .heading {
+    color: #fff;
+    padding-bottom: 20px; }
+  header .input-wrapper {
+    position: relative; }
+    header .input-wrapper button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40px;
+      height: 100%;
+      border: none;
+      color: #fff;
+      font-size: 2rem;
+      background: #cf2223;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px; }
+      header .input-wrapper button:hover {
+        background: #dd2d2e;
+        cursor: pointer; }
+      header .input-wrapper button:active {
+        background: #8d1718; }
+  header .text-input {
+    background: #E4595A;
+    background: #fff;
+    color: #8d1718;
+    border-radius: 6px; }
+    header .text-input::-webkit-input-placeholder {
+      color: #8d1718; }
+
+ul {
+  margin-top: 2px; }
+  ul li {
+    line-height: 2em;
+    padding-left: 10px; }
+    ul li:hover {
+      cursor: pointer;
+      background: #fdf3f3; }
+    ul li p {
+      display: inline; }
+
+.icon {
+  padding-right: 20px;
+  color: #afafaf; }
+  .icon.done {
+    color: #e04344; }
+
+p {
+  color: #60666C;
+  margin: 20px 0 0 20px;
+  font-size: 1.8rem;
+  font-weight: 600; }
